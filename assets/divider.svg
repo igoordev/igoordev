@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 24" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C10203" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#C10203" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#C10203" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <line x1="160" y1="12" x2="424" y2="12" stroke="url(#rule)" stroke-width="1"/>
+  <line x1="456" y1="12" x2="720" y2="12" stroke="url(#rule)" stroke-width="1"/>
+
+  <path d="M 440,5 L 447,12 L 440,19 L 433,12 Z" fill="#C10203">
+    <animate attributeName="opacity" values="1;0.45;1" dur="3.6s" repeatCount="indefinite"/>
+  </path>
+  <path d="M 440,10 L 442,12 L 440,14 L 438,12 Z" fill="#0a0a0a"/>
+</svg>

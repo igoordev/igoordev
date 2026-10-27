@@ -18,6 +18,13 @@
       <stop offset="0" stop-color="#e0262a"/>
       <stop offset="1" stop-color="#C10203"/>
     </linearGradient>
+    <filter id="glow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#C10203" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#C10203" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
   <rect width="1280" height="360" fill="url(#bg)"/>
@@ -48,6 +55,19 @@
     </path>
     <path d="M0,-3 L3,0 L0,3 L-3,0 Z" fill="#0a0a0a"/>
   </g>
+
+  <ellipse cx="640" cy="200" rx="420" ry="90" fill="url(#halo)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.8s" dur="1.4s" fill="freeze"/>
+  </ellipse>
+
+  <text x="640" y="222" text-anchor="middle"
+    font-family="'Helvetica Neue', 'Inter', Helvetica, Arial, sans-serif"
+    font-size="62" font-weight="800" letter-spacing="16"
+    fill="#C10203" filter="url(#glow)" opacity="0">
+    IGOR OLIVEIRA
+    <animate attributeName="opacity" from="0" to="0.55" begin="0.9s" dur="1.2s" fill="freeze"/>
+    <animate attributeName="opacity" values="0.55;0.2;0.55" begin="2.5s" dur="4s" repeatCount="indefinite"/>
+  </text>
 
   <text x="640" y="222" text-anchor="middle"
     font-family="'Helvetica Neue', 'Inter', Helvetica, Arial, sans-serif"

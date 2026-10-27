@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 260" role="img" aria-label="ROGI Company">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="0.5" stop-color="#000000"/>
+      <stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.5" r="0.85">
+      <stop offset="0.55" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.85"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C10203" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#C10203"/>
+      <stop offset="1" stop-color="#C10203" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="880" height="260" fill="url(#bg)"/>
+  <rect width="880" height="260" fill="url(#vignette)"/>
+
+  <rect x="44" y="44" width="792" height="172" fill="none" stroke="#2a0606" stroke-width="1"/>
+
+  <g stroke="#C10203" stroke-width="1" fill="none">
+    <path d="M 44,68 L 44,44 L 68,44"/>
+    <path d="M 812,44 L 836,44 L 836,68"/>
+    <path d="M 44,192 L 44,216 L 68,216"/>
+    <path d="M 812,216 L 836,216 L 836,192"/>
+  </g>
+
+  <line x1="120" y1="78" x2="120" y2="182" stroke="url(#accent)" stroke-width="2"/>
+
+  <g font-family="ui-monospace, 'SF Mono', Menlo, monospace">
+    <text x="148" y="94" font-size="11" fill="#6a6a6a" letter-spacing="4">BUILDING</text>
+  </g>
+
+  <text x="146" y="140"
+    font-family="'Helvetica Neue', 'Inter', Helvetica, Arial, sans-serif"
+    font-size="40" font-weight="800" letter-spacing="10" fill="#ffffff">ROGI<tspan fill="#C10203">.</tspan></text>
+
+  <g font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="13">
+    <text x="148" y="172" fill="#a8a8a8">websites &#183; apps &#183; e-commerce &#183; custom software</text>
+  </g>
+
+  <g font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12" text-anchor="end">
+    <text x="760" y="120" fill="#6a6a6a" letter-spacing="2">from first prototype</text>
+    <text x="760" y="140" fill="#6a6a6a" letter-spacing="2">to launch</text>
+    <text x="760" y="172" fill="#C10203" letter-spacing="2">rogi.company &#8594;</text>
+  </g>
+</svg>

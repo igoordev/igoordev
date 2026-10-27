@@ -5,7 +5,7 @@
 
 <div align="center">
 
-<img src="./assets/banner.svg?v=2" alt="Igor Oliveira" />
+<img src="./assets/banner.svg?v=3" alt="Igor Oliveira" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=13&duration=2400&pause=900&color=C10203&center=true&vCenter=true&width=640&height=26&lines=building+ROGI;shipping+code;based+in+s%C3%A3o+paulo" alt="now" />
 
@@ -16,12 +16,22 @@
 <br>
 <br>
 
-<a href="https://rogi.company/"><img src="https://img.shields.io/badge/ROGI-C10203?style=for-the-badge&labelColor=C10203&color=C10203" alt="rogi" /></a>&nbsp;&nbsp;<a href="https://github.com/DevIgoor03"><img src="https://img.shields.io/badge/GITHUB-0a0a0a?style=for-the-badge&logo=github&logoColor=C10203&labelColor=0a0a0a&color=0a0a0a" alt="github" /></a>
+<a href="https://rogi.company/"><img src="https://img.shields.io/badge/ROGI-C10203?style=for-the-badge&labelColor=C10203&color=C10203" alt="rogi" /></a>&nbsp;&nbsp;<a href="https://github.com/igoordev"><img src="https://img.shields.io/badge/GITHUB-0a0a0a?style=for-the-badge&logo=github&logoColor=C10203&labelColor=0a0a0a&color=0a0a0a" alt="github" /></a>
 
 <br>
 <br>
 
-<sub><code>◆</code></sub>
+<img src="./assets/divider.svg?v=1" width="640" alt="" />
+
+<br>
+<br>
+
+<a href="https://rogi.company/"><img src="./assets/rogi.svg?v=1" alt="ROGI — websites, apps, e-commerce and custom software" /></a>
+
+<br>
+<br>
+
+<img src="./assets/divider.svg?v=1" width="640" alt="" />
 
 <br>
 <br>
@@ -35,11 +45,16 @@
 <br>
 <br>
 
-<sub><code>◆</code></sub>
+<img src="./assets/divider.svg?v=1" width="640" alt="" />
 
 <br>
 <br>
 
-<img src="./assets/manifesto.svg?v=2" alt="now" />
+<img src="./assets/manifesto.svg?v=3" alt="now" />
+
+<br>
+<br>
+
+<img src="https://raw.githubusercontent.com/igoordev/igoordev/output/snake-dark.svg" alt="contribution snake" />
 
 </div>
