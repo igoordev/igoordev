@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" preserveAspectRatio="xMidYMid meet" role="img" aria-label="devigoor">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="0.5" stop-color="#000000"/>
+      <stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.5" r="0.85">
+      <stop offset="0.5" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.85"/>
+    </radialGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#BB0203" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#BB0203" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#BB0203" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="diamondGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e0262a"/>
+      <stop offset="1" stop-color="#BB0203"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+
+  <g stroke="#1a0303" stroke-width="1" opacity="0.6">
+    <line x1="0" y1="60" x2="1280" y2="60"/>
+    <line x1="0" y1="120" x2="1280" y2="120"/>
+    <line x1="0" y1="180" x2="1280" y2="180"/>
+    <line x1="0" y1="240" x2="1280" y2="240"/>
+    <line x1="0" y1="300" x2="1280" y2="300"/>
+  </g>
+
+  <rect width="1280" height="360" fill="url(#vignette)"/>
+
+  <rect x="40" y="40" width="1200" height="280" fill="none" stroke="#2a0606" stroke-width="1"/>
+
+  <g stroke="#BB0203" stroke-width="1" fill="none">
+    <path d="M 40,64 L 40,40 L 64,40"/>
+    <path d="M 1216,40 L 1240,40 L 1240,64"/>
+    <path d="M 40,296 L 40,320 L 64,320"/>
+    <path d="M 1216,320 L 1240,320 L 1240,296"/>
+  </g>
+
+  <g transform="translate(640, 132)">
+    <path d="M0,-9 L9,0 L0,9 L-9,0 Z" fill="url(#diamondGrad)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.9s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0.45;1" begin="2.5s" dur="3.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,-3 L3,0 L0,3 L-3,0 Z" fill="#0a0a0a"/>
+  </g>
+
+  <text x="640" y="222" text-anchor="middle"
+    font-family="'Helvetica Neue', 'Inter', Helvetica, Arial, sans-serif"
+    font-size="62" font-weight="800" letter-spacing="16"
+    fill="#BB0203" opacity="0">
+    DEVIGOOR
+    <animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="1.1s" fill="freeze"/>
+  </text>
+
+  <line x1="470" y1="248" x2="810" y2="248" stroke="url(#lineGrad)" stroke-width="1" stroke-dasharray="340" stroke-dashoffset="340">
+    <animate attributeName="stroke-dashoffset" from="340" to="0" begin="1.2s" dur="1.6s" fill="freeze"/>
+  </line>
+  <path d="M 640,243 L 645,248 L 640,253 L 635,248 Z" fill="#BB0203" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.9" begin="2.2s" dur="0.6s" fill="freeze"/>
+  </path>
+
+  <text x="640" y="282" text-anchor="middle"
+    font-family="ui-monospace, 'SF Mono', Menlo, monospace"
+    font-size="12" font-weight="500" letter-spacing="8"
+    fill="#a8a8a8" opacity="0">
+    ROGI &#183; S&#195;O PAULO
+    <animate attributeName="opacity" from="0" to="1" begin="1.6s" dur="1s" fill="freeze"/>
+  </text>
+
+</svg>

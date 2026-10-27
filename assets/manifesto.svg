@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 380" role="img" aria-label="Now">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="0.5" stop-color="#000000"/>
+      <stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.5" r="0.85">
+      <stop offset="0.55" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.85"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#BB0203" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#BB0203" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#BB0203" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="880" height="380" fill="url(#bg)"/>
+  <rect width="880" height="380" fill="url(#vignette)"/>
+
+  <rect x="44" y="44" width="792" height="292" fill="none" stroke="#2a0606" stroke-width="1"/>
+  <rect x="56" y="56" width="768" height="268" fill="none" stroke="#1a0303" stroke-width="1"/>
+
+  <g stroke="#BB0203" stroke-width="1" fill="none">
+    <path d="M 44,68 L 44,44 L 68,44"/>
+    <path d="M 812,44 L 836,44 L 836,68"/>
+    <path d="M 44,312 L 44,336 L 68,336"/>
+    <path d="M 812,336 L 836,336 L 836,312"/>
+  </g>
+
+  <line x1="200" y1="100" x2="680" y2="100" stroke="url(#rule)" stroke-width="1"/>
+
+  <g font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="14">
+    <g transform="translate(220, 158)">
+      <text x="0" y="0" fill="#6a6a6a" letter-spacing="2">building</text>
+      <text x="180" y="0" fill="#BB0203">&#8594;</text>
+      <text x="220" y="0" fill="#ffffff" font-weight="500">ROGI</text>
+    </g>
+    <g transform="translate(220, 200)">
+      <text x="0" y="0" fill="#6a6a6a" letter-spacing="2">github</text>
+      <text x="180" y="0" fill="#BB0203">&#8594;</text>
+      <text x="220" y="0" fill="#ffffff" font-weight="500">@DevIgoor03</text>
+    </g>
+    <g transform="translate(220, 242)">
+      <text x="0" y="0" fill="#6a6a6a" letter-spacing="2">based in</text>
+      <text x="180" y="0" fill="#BB0203">&#8594;</text>
+      <text x="220" y="0" fill="#ffffff" font-weight="500">s&#227;o paulo, brasil</text>
+    </g>
+  </g>
+
+  <line x1="200" y1="282" x2="680" y2="282" stroke="url(#rule)" stroke-width="1"/>
+</svg>
